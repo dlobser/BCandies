@@ -1,0 +1,3002 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2952926495887563508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248555774090855253}
+  - component: {fileID: 8921620057631499163}
+  - component: {fileID: 8893002746195658418}
+  - component: {fileID: 7920181627112909287}
+  - component: {fileID: 3582496203167588482}
+  - component: {fileID: 7075853843994073828}
+  m_Layer: 0
+  m_Name: Noia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1248555774090855253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 11.24}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3178120896803734787}
+  - {fileID: 8099594255718274763}
+  - {fileID: 1491767829568378227}
+  - {fileID: 566114109976868700}
+  - {fileID: 707277645799933986}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8921620057631499163
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  m_Mesh: {fileID: -2934717439318261032, guid: ac554cd01b39fd64eae62c9b8f7eb95c, type: 3}
+--- !u!23 &8893002746195658418
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a884a402ed80e80498b59f3baf5cabcf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7920181627112909287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffab6e98d139aa4597a607492e4b9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingLayerName: Default
+  sortingOrder: 1
+--- !u!114 &3582496203167588482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577c1a78e6c45e34f9f0f34383c112fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderers:
+  - {fileID: 8893002746195658418}
+  mainTex: {fileID: 2800000, guid: e8402e483bfff3a4eb2c3eee55458718, type: 3}
+  textureBrightness: 1
+  textureBrightnessOscillator: {fileID: 0}
+  textureContrast: 0
+  textureContrastOscillator: {fileID: 0}
+  textureSpeedX: 0
+  textureSpeedXOscillator: {fileID: 0}
+  textureSpeedY: 0
+  textureSpeedYOscillator: {fileID: 0}
+  textureClampLow: 0
+  textureClampLowOscillator: {fileID: 0}
+  textureClampHigh: 1
+  textureClampHighOscillator: {fileID: 0}
+  texturePick: {x: 0, y: 0, z: -15.2, w: 0}
+  textureTilingX: 0
+  textureTilingXOscillator: {fileID: 0}
+  textureTilingY: 0
+  textureTilingYOscillator: {fileID: 0}
+  RazorMultiply: -0.04
+  RazorMultiplyOscillator: {fileID: 0}
+  RazorFrequency: 4.81
+  RazorFrequencyOscillator: {fileID: 0}
+  RazorOffset: 0
+  RazorOffsetOscillator: {fileID: 0}
+  RazorSinFrequency: 0
+  RazorSinFrequencyOscillator: {fileID: 0}
+  RazorSinMultiply: 0
+  RazorSinMultiplyOscillator: {fileID: 0}
+  RazorSinSpeed: 0
+  RazorSinSpeedOscillator: {fileID: 0}
+  frequency: 4
+  frequencyOscillator: {fileID: 0}
+  offset: 0
+  offsetOscillator: {fileID: 0}
+  speed: -0.1
+  speedOscillator: {fileID: 0}
+  amplitude: 0.79
+  amplitudeOscillator: {fileID: 0}
+  add: 0.84
+  addOscillator: {fileID: 0}
+  distortDirection: 0
+  distortDirectionOscillator: {fileID: 0}
+  distortMultiply: 0
+  distortMultiplyOscillator: {fileID: 0}
+  color: {r: 0.24381976, g: 0.7311321, b: 0, a: 1}
+  colorGradient:
+    serializedVersion: 2
+    key0: {r: 0.24381976, g: 0.7311321, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator: {fileID: 7038587758133701919}
+  color2: {r: 0.7971698, g: 0.10152635, b: 0.33141503, a: 1}
+  colorGradient2:
+    serializedVersion: 2
+    key0: {r: 0.7971698, g: 0.10152635, b: 0.33141503, a: 1}
+    key1: {r: 0.8349056, g: 0.6695599, b: 0.12602349, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator2: {fileID: 7038587758133701919}
+  clampLow: -1
+  clampLowOscillator: {fileID: 0}
+  clampHigh: 1
+  clampHighOscillator: {fileID: 0}
+  positionX: 0
+  positionXOscillator: {fileID: 0}
+  positionY: 0
+  positionYOscillator: {fileID: 0}
+  quantizeTime: 1000
+  quantizeTimeOscillator: {fileID: 0}
+  ZVignette: 1
+  ZVignettePower: 0
+  eyeHueShift: 0
+  eyeHueShiftOscillator: {fileID: 0}
+  clockScale: 1
+  clockScaleOscillator: {fileID: 0}
+  clockOffset: 0
+  clockOffsetOscillator: {fileID: 0}
+  opacity: 1
+  opacityOscillator: {fileID: 0}
+  cTime: {x: 0, y: -1771.6891, z: 2912.5286, w: 0.0471556}
+  cTimeOscillator: {fileID: 0}
+--- !u!114 &7075853843994073828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952926495887563508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3209acda11c264dbe9a7e2b59d4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScript: {fileID: 3582496203167588482}
+  transitionSpeed: 0
+  floatRanges:
+  - fieldName: textureBrightness
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureContrast
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureSpeedX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureSpeedY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampLow
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampHigh
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureTilingX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureTilingY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorMultiply
+    range: {x: -0.04, y: -0.04}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.04
+    currentValue: -0.04
+    targetValue: -0.04
+  - fieldName: RazorFrequency
+    range: {x: 4.81, y: 4.81}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 4.81
+    currentValue: 4.81
+    targetValue: 4.81
+  - fieldName: RazorOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinFrequency
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinSpeed
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: frequency
+    range: {x: 4, y: 4}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 4
+    currentValue: 4
+    targetValue: 4
+  - fieldName: offset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: speed
+    range: {x: -0.1, y: -0.1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.1
+    currentValue: -0.1
+    targetValue: -0.1
+  - fieldName: amplitude
+    range: {x: 0.79, y: 0.79}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.79
+    currentValue: 0.79
+    targetValue: 0.79
+  - fieldName: add
+    range: {x: 0.84, y: 0.84}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.84
+    currentValue: 0.84
+    targetValue: 0.84
+  - fieldName: distortDirection
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: distortMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clampLow
+    range: {x: -1, y: -1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -1
+    currentValue: -1
+    targetValue: -1
+  - fieldName: clampHigh
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: positionX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: positionY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: quantizeTime
+    range: {x: 1000, y: 1000}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1000
+    currentValue: 1000
+    targetValue: 1000
+  - fieldName: ZVignette
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: ZVignettePower
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: eyeHueShift
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clockScale
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: clockOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: opacity
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  vector4Ranges:
+  - fieldName: texturePick
+    xRange: {x: 0, y: 0}
+    yRange: {x: 0, y: 0}
+    zRange: {x: -15.2, y: -15.2}
+    wRange: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 0, z: -15.2, w: 0}
+    currentValue: {x: 0, y: 0, z: -15.2, w: 0}
+    targetValue: {x: 0, y: 0, z: -15.2, w: 0}
+  - fieldName: cTime
+    xRange: {x: 0, y: 0}
+    yRange: {x: -1770.2264, y: -1770.2264}
+    zRange: {x: 2910.1968, y: 2910.1968}
+    wRange: {x: 0.0021009, y: 0.0021009}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: -1770.2264, z: 2910.1968, w: 0.0021009}
+    currentValue: {x: 0, y: -1644.8779, z: 2710.7505, w: 0.0023185}
+    targetValue: {x: 0, y: -1644.8779, z: 2710.7505, w: 0.0023185}
+  colorRanges:
+  - fieldName: color
+    rRange: {x: 0.78610307, y: 0.78610307}
+    gRange: {x: 0.9239467, y: 0.9239467}
+    bRange: {x: 0.71713495, y: 0.71713495}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.78610307, g: 0.9239467, b: 0.71713495, a: 1}
+    currentValue: {r: 0.9998393, g: 0.9999429, b: 0.9997875, a: 1}
+    targetValue: {r: 0.9998393, g: 0.9999429, b: 0.9997875, a: 1}
+  - fieldName: color2
+    rRange: {x: 0.8242315, y: 0.8242315}
+    gRange: {x: 0.5088831, y: 0.5088831}
+    bRange: {x: 0.18412158, y: 0.18412158}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.8242315, g: 0.5088831, b: 0.18412158, a: 1}
+    currentValue: {r: 0.83489764, g: 0.6694392, b: 0.12606713, a: 1}
+    targetValue: {r: 0.83489764, g: 0.6694392, b: 0.12606713, a: 1}
+  callRandomFunction: {fileID: 0}
+  randomizeOnStart: 1
+--- !u!1 &5911243389620136530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566114109976868700}
+  - component: {fileID: 1024819654411891236}
+  - component: {fileID: 1937781562922454279}
+  - component: {fileID: 5123680726712675500}
+  - component: {fileID: 4896667447626771221}
+  - component: {fileID: 561490610342039781}
+  m_Layer: 0
+  m_Name: BasicTemplate(Clone) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566114109976868700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -0.77}
+  m_LocalScale: {x: 3.3774452, y: 2.0293486, z: 0.93783}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248555774090855253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &1024819654411891236
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  m_Mesh: {fileID: -2934717439318261032, guid: ac554cd01b39fd64eae62c9b8f7eb95c, type: 3}
+--- !u!23 &1937781562922454279
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a0872fafe1c0d62438c02df010fdf545, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5123680726712675500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffab6e98d139aa4597a607492e4b9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingLayerName: Default
+  sortingOrder: 1
+--- !u!114 &4896667447626771221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577c1a78e6c45e34f9f0f34383c112fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderers:
+  - {fileID: 1937781562922454279}
+  mainTex: {fileID: 2800000, guid: e8402e483bfff3a4eb2c3eee55458718, type: 3}
+  textureBrightness: 0.4
+  textureBrightnessOscillator: {fileID: 0}
+  textureContrast: 1
+  textureContrastOscillator: {fileID: 0}
+  textureSpeedX: 0
+  textureSpeedXOscillator: {fileID: 0}
+  textureSpeedY: 0
+  textureSpeedYOscillator: {fileID: 0}
+  textureClampLow: 0
+  textureClampLowOscillator: {fileID: 0}
+  textureClampHigh: 1
+  textureClampHighOscillator: {fileID: 0}
+  texturePick: {x: 0, y: 0, z: 0, w: 0}
+  textureTilingX: 0
+  textureTilingXOscillator: {fileID: 0}
+  textureTilingY: 0
+  textureTilingYOscillator: {fileID: 0}
+  RazorMultiply: -0.04
+  RazorMultiplyOscillator: {fileID: 0}
+  RazorFrequency: -2.82
+  RazorFrequencyOscillator: {fileID: 0}
+  RazorOffset: 0
+  RazorOffsetOscillator: {fileID: 0}
+  RazorSinFrequency: 0
+  RazorSinFrequencyOscillator: {fileID: 0}
+  RazorSinMultiply: 0
+  RazorSinMultiplyOscillator: {fileID: 0}
+  RazorSinSpeed: 0
+  RazorSinSpeedOscillator: {fileID: 0}
+  frequency: 12.35
+  frequencyOscillator: {fileID: 0}
+  offset: 0
+  offsetOscillator: {fileID: 0}
+  speed: -0.66
+  speedOscillator: {fileID: 0}
+  amplitude: 0.66
+  amplitudeOscillator: {fileID: 0}
+  add: 0.64
+  addOscillator: {fileID: 0}
+  distortDirection: 0
+  distortDirectionOscillator: {fileID: 0}
+  distortMultiply: 0
+  distortMultiplyOscillator: {fileID: 0}
+  color: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+  colorGradient:
+    serializedVersion: 2
+    key0: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+    key1: {r: 0.1462264, g: 0.9133629, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator: {fileID: 7038587758133701919}
+  color2: {r: 1, g: 0.8489028, b: 0, a: 1}
+  colorGradient2:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.8489028, b: 0, a: 1}
+    key1: {r: 0.3018868, g: 1, b: 0.82739145, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator2: {fileID: 7038587758133701919}
+  clampLow: -1
+  clampLowOscillator: {fileID: 0}
+  clampHigh: 0.5
+  clampHighOscillator: {fileID: 0}
+  positionX: 0
+  positionXOscillator: {fileID: 0}
+  positionY: 0
+  positionYOscillator: {fileID: 0}
+  quantizeTime: 100
+  quantizeTimeOscillator: {fileID: 0}
+  ZVignette: -0.2
+  ZVignettePower: 2
+  eyeHueShift: 0
+  eyeHueShiftOscillator: {fileID: 0}
+  clockScale: 1
+  clockScaleOscillator: {fileID: 0}
+  clockOffset: 0
+  clockOffsetOscillator: {fileID: 0}
+  opacity: 0.46
+  opacityOscillator: {fileID: 0}
+  cTime: {x: 0, y: -1897.3674, z: 899.6579, w: 0.0471556}
+  cTimeOscillator: {fileID: 0}
+--- !u!114 &561490610342039781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911243389620136530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3209acda11c264dbe9a7e2b59d4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScript: {fileID: 4896667447626771221}
+  transitionSpeed: 0
+  floatRanges:
+  - fieldName: textureBrightness
+    range: {x: 0.4, y: 0.4}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.4
+    currentValue: 0.4
+    targetValue: 0.4
+  - fieldName: textureContrast
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureSpeedX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureSpeedY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampLow
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampHigh
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureTilingX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureTilingY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorMultiply
+    range: {x: -0.04, y: -0.04}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.04
+    currentValue: 0.06
+    targetValue: 0.06
+  - fieldName: RazorFrequency
+    range: {x: -2.82, y: -2.82}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -2.82
+    currentValue: -2.82
+    targetValue: -2.82
+  - fieldName: RazorOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinFrequency
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinSpeed
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: frequency
+    range: {x: 12.35, y: 12.35}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 12.35
+    currentValue: 12.35
+    targetValue: 12.35
+  - fieldName: offset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: speed
+    range: {x: -0.66, y: -0.66}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.66
+    currentValue: -0.66
+    targetValue: -0.66
+  - fieldName: amplitude
+    range: {x: 0.66, y: 0.66}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.66
+    currentValue: 0.66
+    targetValue: 0.66
+  - fieldName: add
+    range: {x: 0.64, y: 0.64}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.64
+    currentValue: 0.64
+    targetValue: 0.64
+  - fieldName: distortDirection
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: distortMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clampLow
+    range: {x: -1, y: -1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -1
+    currentValue: -1
+    targetValue: -1
+  - fieldName: clampHigh
+    range: {x: 0.5, y: 0.5}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.5
+    currentValue: 0.5
+    targetValue: 0.5
+  - fieldName: positionX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: positionY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: quantizeTime
+    range: {x: 100, y: 100}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 100
+    currentValue: 100
+    targetValue: 100
+  - fieldName: ZVignette
+    range: {x: -0.2, y: -0.2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.2
+    currentValue: -0.2
+    targetValue: -0.2
+  - fieldName: ZVignettePower
+    range: {x: 2, y: 2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 2
+    currentValue: 2
+    targetValue: 2
+  - fieldName: eyeHueShift
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clockScale
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: clockOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: opacity
+    range: {x: 0.46, y: 0.46}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.46
+    currentValue: 0.46
+    targetValue: 0.46
+  vector4Ranges:
+  - fieldName: texturePick
+    xRange: {x: 0, y: 0}
+    yRange: {x: 0, y: 0}
+    zRange: {x: 0, y: 0}
+    wRange: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 0, z: 0, w: 0}
+    currentValue: {x: 0, y: 0, z: 0, w: 0}
+    targetValue: {x: 0, y: 0, z: 0, w: 0}
+  - fieldName: cTime
+    xRange: {x: 0, y: 0}
+    yRange: {x: -1869.9734, y: -1869.9734}
+    zRange: {x: 893.0523, y: 893.0523}
+    wRange: {x: 0.0031701, y: 0.0031701}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: -1869.9734, z: 893.0523, w: 0.0031701}
+    currentValue: {x: 0, y: -1360.6069, z: 770.22504, w: 0.002329}
+    targetValue: {x: 0, y: -1360.6069, z: 770.22504, w: 0.002329}
+  colorRanges:
+  - fieldName: color
+    rRange: {x: 0.17637128, y: 0.17637128}
+    gRange: {x: 0.9559543, y: 0.9559543}
+    bRange: {x: 0.54549557, y: 0.54549557}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.17637128, g: 0.9559543, b: 0.54549557, a: 1}
+    currentValue: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+    targetValue: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+  - fieldName: color2
+    rRange: {x: 0.645084, y: 0.645084}
+    gRange: {x: 0.9257196, y: 0.9257196}
+    bRange: {x: 0.42064017, y: 0.42064017}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.645084, g: 0.9257196, b: 0.42064017, a: 1}
+    currentValue: {r: 1, g: 0.8489028, b: 0, a: 1}
+    targetValue: {r: 1, g: 0.8489028, b: 0, a: 1}
+  callRandomFunction: {fileID: 0}
+  randomizeOnStart: 1
+--- !u!1 &6105242852567587727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8099594255718274763}
+  - component: {fileID: 7038587758133701919}
+  m_Layer: 0
+  m_Name: oscillator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8099594255718274763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105242852567587727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248555774090855253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7038587758133701919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105242852567587727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b665214f3b5586645bd65a1fb3c5787b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: 'Counter: 0.2660044, Value: -0.1003893'
+  displayCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.016666668
+      value: 0.9998477
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.033333335
+      value: 0.99939084
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.05
+      value: 0.9986295
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.06666667
+      value: 0.9975641
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.083333336
+      value: 0.9961947
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.9945219
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.11666667
+      value: 0.99254614
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.13333334
+      value: 0.99026805
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.15
+      value: 0.98768836
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16666667
+      value: 0.9848077
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.18333334
+      value: 0.98162717
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 0.9781476
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.21666667
+      value: 0.97437006
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.23333333
+      value: 0.9702957
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.9659258
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.26666668
+      value: 0.9612617
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.28333333
+      value: 0.9563047
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 0.95105654
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.31666666
+      value: 0.94551855
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33333334
+      value: 0.9396926
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.35
+      value: 0.9335804
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.36666667
+      value: 0.92718387
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.38333333
+      value: 0.92050487
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4
+      value: 0.9135454
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.41666666
+      value: 0.9063078
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.43333334
+      value: 0.89879405
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.45
+      value: 0.8910065
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.46666667
+      value: 0.88294756
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.48333332
+      value: 0.8746197
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.8660254
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.51666665
+      value: 0.8571673
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.53333336
+      value: 0.8480481
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.55
+      value: 0.83867055
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.56666666
+      value: 0.82903755
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5833333
+      value: 0.81915206
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.809017
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6166667
+      value: 0.7986355
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6333333
+      value: 0.7880108
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.65
+      value: 0.777146
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6666667
+      value: 0.76604444
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.68333334
+      value: 0.7547096
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.7
+      value: 0.7431448
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.71666664
+      value: 0.7313537
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.73333335
+      value: 0.7193398
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.75
+      value: 0.70710677
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.76666665
+      value: 0.6946584
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.78333336
+      value: 0.6819984
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.66913056
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.81666666
+      value: 0.65605897
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8333333
+      value: 0.64278764
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.85
+      value: 0.6293204
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8666667
+      value: 0.61566144
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8833333
+      value: 0.60181504
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9
+      value: 0.5877853
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9166667
+      value: 0.57357645
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.93333334
+      value: 0.55919284
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.95
+      value: 0.544639
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.96666664
+      value: 0.52991927
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.98333335
+      value: 0.5150381
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  displayCurveRange: 1
+  resetAllCounters: 0
+  trough: -1
+  crest: 1
+  clampLow: -1000
+  clampHigh: 1000
+  offset: 0
+  timeOffset: 0
+  multiply: 1
+  speed: 6
+  counterPower: 1
+  sinPower: 1
+  quantize: 0
+  useNoise: 0
+  dontLoopCustomCurve: 0
+  useCustom: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lazyValue: -0.100389294
+  lazyLerpSpeed: 1000
+  oscillators:
+    multiplyOscillate: {fileID: 0}
+    speedOscillate: {fileID: 0}
+    offsetOscillate: {fileID: 0}
+    troughOscillate: {fileID: 0}
+    crestOscillate: {fileID: 0}
+    clampLowOscillate: {fileID: 0}
+    clampHighOscillate: {fileID: 0}
+    timeOffsetOscillate: {fileID: 0}
+    quantizeOscillate: {fileID: 0}
+  triggers:
+    multiplyTrigger: {fileID: 0}
+    speedTrigger: {fileID: 0}
+    offsetTrigger: {fileID: 0}
+    troughTrigger: {fileID: 0}
+    crestTrigger: {fileID: 0}
+    clampLowTrigger: {fileID: 0}
+    clampHighTrigger: {fileID: 0}
+    timeOffsetTrigger: {fileID: 0}
+    quantizeTrigger: {fileID: 0}
+  line: {fileID: 0}
+  showLine: 0
+  lineLength: 100
+  conductor: {fileID: 0}
+  debug: 0
+--- !u!1 &6204555145241833506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2309799926996705152}
+  - component: {fileID: 4060487720513966104}
+  m_Layer: 0
+  m_Name: SetFrequency
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2309799926996705152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204555145241833506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3178120896803734787}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4060487720513966104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204555145241833506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6183055b25707aa41aecbe40b7a1f73a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderHandlerSiney: {fileID: 3582496203167588482}
+  tones:
+  - baseFrequency: 120
+    baseFrequencyMin: 120
+    baseFrequencyMax: 220
+    speedMultiplier: 0
+    toneIndex: 0
+    baseFrequencyIndex: -1
+    baseFrequencyIndexMultiplier: 0
+  - baseFrequency: 0
+    baseFrequencyMin: 0
+    baseFrequencyMax: 0
+    speedMultiplier: 1
+    toneIndex: 1
+    baseFrequencyIndex: 0
+    baseFrequencyIndexMultiplier: 1
+  synth: {fileID: 3008548232604948747}
+--- !u!1 &6240713123247863232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 707277645799933986}
+  - component: {fileID: 1031500887813383208}
+  - component: {fileID: 3191015805796365700}
+  - component: {fileID: 8248736547751944428}
+  - component: {fileID: 6067575416367271590}
+  - component: {fileID: 2668254245081059669}
+  m_Layer: 0
+  m_Name: BasicTemplate(Clone) (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &707277645799933986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: -20.865}
+  m_LocalScale: {x: 10.465319, y: 10.008093, z: 20.862028}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248555774090855253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &1031500887813383208
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  m_Mesh: {fileID: -2934717439318261032, guid: ac554cd01b39fd64eae62c9b8f7eb95c, type: 3}
+--- !u!23 &3191015805796365700
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a0872fafe1c0d62438c02df010fdf545, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8248736547751944428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffab6e98d139aa4597a607492e4b9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingLayerName: Default
+  sortingOrder: 1
+--- !u!114 &6067575416367271590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577c1a78e6c45e34f9f0f34383c112fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderers:
+  - {fileID: 3191015805796365700}
+  mainTex: {fileID: 2800000, guid: e8402e483bfff3a4eb2c3eee55458718, type: 3}
+  textureBrightness: 0.4
+  textureBrightnessOscillator: {fileID: 0}
+  textureContrast: 1
+  textureContrastOscillator: {fileID: 0}
+  textureSpeedX: 0
+  textureSpeedXOscillator: {fileID: 0}
+  textureSpeedY: 0
+  textureSpeedYOscillator: {fileID: 0}
+  textureClampLow: 0
+  textureClampLowOscillator: {fileID: 0}
+  textureClampHigh: 1
+  textureClampHighOscillator: {fileID: 0}
+  texturePick: {x: 0, y: 0, z: 0, w: 0}
+  textureTilingX: 0
+  textureTilingXOscillator: {fileID: 0}
+  textureTilingY: 0
+  textureTilingYOscillator: {fileID: 0}
+  RazorMultiply: -0.16
+  RazorMultiplyOscillator: {fileID: 0}
+  RazorFrequency: -1.07
+  RazorFrequencyOscillator: {fileID: 0}
+  RazorOffset: 0
+  RazorOffsetOscillator: {fileID: 0}
+  RazorSinFrequency: 0
+  RazorSinFrequencyOscillator: {fileID: 0}
+  RazorSinMultiply: 0
+  RazorSinMultiplyOscillator: {fileID: 0}
+  RazorSinSpeed: 0
+  RazorSinSpeedOscillator: {fileID: 0}
+  frequency: 12.35
+  frequencyOscillator: {fileID: 0}
+  offset: 0
+  offsetOscillator: {fileID: 0}
+  speed: 0.58
+  speedOscillator: {fileID: 0}
+  amplitude: 1.05
+  amplitudeOscillator: {fileID: 0}
+  add: 0.64
+  addOscillator: {fileID: 0}
+  distortDirection: 0
+  distortDirectionOscillator: {fileID: 0}
+  distortMultiply: 0
+  distortMultiplyOscillator: {fileID: 0}
+  color: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+  colorGradient:
+    serializedVersion: 2
+    key0: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+    key1: {r: 0.1462264, g: 0.9133629, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator: {fileID: 7038587758133701919}
+  color2: {r: 0.5754717, g: 0.2741634, b: 0.4950255, a: 1}
+  colorGradient2:
+    serializedVersion: 2
+    key0: {r: 0.5754717, g: 0.2741634, b: 0.4950255, a: 1}
+    key1: {r: 1, g: 0.2971698, b: 0.38479972, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator2: {fileID: 7038587758133701919}
+  clampLow: -1
+  clampLowOscillator: {fileID: 0}
+  clampHigh: 0.5
+  clampHighOscillator: {fileID: 0}
+  positionX: 0
+  positionXOscillator: {fileID: 0}
+  positionY: 0
+  positionYOscillator: {fileID: 0}
+  quantizeTime: 100
+  quantizeTimeOscillator: {fileID: 0}
+  ZVignette: -0.2
+  ZVignettePower: 2
+  eyeHueShift: 0
+  eyeHueShiftOscillator: {fileID: 0}
+  clockScale: 1
+  clockScaleOscillator: {fileID: 0}
+  clockOffset: 0
+  clockOffsetOscillator: {fileID: 0}
+  opacity: 0.62
+  opacityOscillator: {fileID: 0}
+  cTime: {x: 0, y: 1530.9442, z: 623.87177, w: 0.0471556}
+  cTimeOscillator: {fileID: 0}
+--- !u!114 &2668254245081059669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240713123247863232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3209acda11c264dbe9a7e2b59d4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScript: {fileID: 6067575416367271590}
+  transitionSpeed: 0
+  floatRanges:
+  - fieldName: textureBrightness
+    range: {x: 0.4, y: 0.4}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.4
+    currentValue: 0.4
+    targetValue: 0.4
+  - fieldName: textureContrast
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureSpeedX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureSpeedY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampLow
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampHigh
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureTilingX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureTilingY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorMultiply
+    range: {x: -0.16, y: -0.16}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.16
+    currentValue: 0.06
+    targetValue: 0.06
+  - fieldName: RazorFrequency
+    range: {x: -1.07, y: -1.07}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -1.07
+    currentValue: -2.82
+    targetValue: -2.82
+  - fieldName: RazorOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinFrequency
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinSpeed
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: frequency
+    range: {x: 12.35, y: 12.35}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 12.35
+    currentValue: 12.35
+    targetValue: 12.35
+  - fieldName: offset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: speed
+    range: {x: 0.58, y: 0.58}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.58
+    currentValue: 0.58
+    targetValue: 0.58
+  - fieldName: amplitude
+    range: {x: 1.05, y: 1.05}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1.05
+    currentValue: 1.05
+    targetValue: 1.05
+  - fieldName: add
+    range: {x: 0.64, y: 0.64}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.64
+    currentValue: 0.64
+    targetValue: 0.64
+  - fieldName: distortDirection
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: distortMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clampLow
+    range: {x: -1, y: -1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -1
+    currentValue: -1
+    targetValue: -1
+  - fieldName: clampHigh
+    range: {x: 0.5, y: 0.5}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.5
+    currentValue: 0.5
+    targetValue: 0.5
+  - fieldName: positionX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: positionY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: quantizeTime
+    range: {x: 100, y: 100}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 100
+    currentValue: 100
+    targetValue: 100
+  - fieldName: ZVignette
+    range: {x: -0.2, y: -0.2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.2
+    currentValue: -0.2
+    targetValue: -0.2
+  - fieldName: ZVignettePower
+    range: {x: 2, y: 2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 2
+    currentValue: 2
+    targetValue: 2
+  - fieldName: eyeHueShift
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clockScale
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: clockOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: opacity
+    range: {x: 0.62, y: 0.62}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.62
+    currentValue: 0.62
+    targetValue: 0.62
+  vector4Ranges:
+  - fieldName: texturePick
+    xRange: {x: 0, y: 0}
+    yRange: {x: 0, y: 0}
+    zRange: {x: 0, y: 0}
+    wRange: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 0, z: 0, w: 0}
+    currentValue: {x: 0, y: 0, z: 0, w: 0}
+    targetValue: {x: 0, y: 0, z: 0, w: 0}
+  - fieldName: cTime
+    xRange: {x: 0, y: 0}
+    yRange: {x: 1498.8845, y: 1498.8845}
+    zRange: {x: 615.0751, y: 615.0751}
+    wRange: {x: 0.0024941, y: 0.0024941}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 1498.8845, z: 615.0751, w: 0.0024941}
+    currentValue: {x: 0, y: 744.3366, z: 408.02084, w: 0.0023368}
+    targetValue: {x: 0, y: 744.3366, z: 408.02084, w: 0.0023368}
+  colorRanges:
+  - fieldName: color
+    rRange: {x: 0.18865198, y: 0.18865198}
+    gRange: {x: 0.9733056, y: 0.9733056}
+    bRange: {x: 0.36033523, y: 0.36033523}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.18865198, g: 0.9733056, b: 0.36033523, a: 1}
+    currentValue: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+    targetValue: {r: 0.20754546, g: 1, b: 0.0754717, a: 1}
+  - fieldName: color2
+    rRange: {x: 0.70627636, y: 0.70627636}
+    gRange: {x: 0.2812521, y: 0.2812521}
+    bRange: {x: 0.46106297, y: 0.46106297}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 0.70627636, g: 0.2812521, b: 0.46106297, a: 1}
+    currentValue: {r: 0.5754717, g: 0.2741634, b: 0.4950255, a: 1}
+    targetValue: {r: 0.5754717, g: 0.2741634, b: 0.4950255, a: 1}
+  callRandomFunction: {fileID: 0}
+  randomizeOnStart: 1
+--- !u!1 &7514623328389548769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3178120896803734787}
+  - component: {fileID: 2386946149358581479}
+  - component: {fileID: 3008548232604948747}
+  m_Layer: 0
+  m_Name: Synth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3178120896803734787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7514623328389548769}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2309799926996705152}
+  m_Father: {fileID: 1248555774090855253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2386946149358581479
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7514623328389548769}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3008548232604948747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7514623328389548769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc1db024322a4e4fb6ec28b1df1d5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tones:
+  - volume: 0.2
+    frequency: 120
+    pan: 0
+    advanced:
+      doppler: 0
+      useNoise: 0
+      useCustomCurve: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      oscillators:
+        volumeOscillator: {fileID: 0}
+        frequencyOscillator: {fileID: 0}
+        panOscillator: {fileID: 0}
+  - volume: 0.2
+    frequency: 119.9
+    pan: 0
+    advanced:
+      doppler: 0
+      useNoise: 0
+      useCustomCurve: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      oscillators:
+        volumeOscillator: {fileID: 0}
+        frequencyOscillator: {fileID: 0}
+        panOscillator: {fileID: 0}
+--- !u!1 &7999286416058017848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1491767829568378227}
+  - component: {fileID: 456807717770313704}
+  - component: {fileID: 9148410798841987398}
+  - component: {fileID: 429381857083958191}
+  - component: {fileID: 8873134813441606154}
+  - component: {fileID: 8775722570875212899}
+  m_Layer: 0
+  m_Name: BasicTemplate(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1491767829568378227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.23}
+  m_LocalScale: {x: 2.5345, y: 5.2914, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248555774090855253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &456807717770313704
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  m_Mesh: {fileID: -2934717439318261032, guid: ac554cd01b39fd64eae62c9b8f7eb95c, type: 3}
+--- !u!23 &9148410798841987398
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a0872fafe1c0d62438c02df010fdf545, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &429381857083958191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffab6e98d139aa4597a607492e4b9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingLayerName: Default
+  sortingOrder: 1
+--- !u!114 &8873134813441606154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577c1a78e6c45e34f9f0f34383c112fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderers:
+  - {fileID: 9148410798841987398}
+  mainTex: {fileID: 2800000, guid: e8402e483bfff3a4eb2c3eee55458718, type: 3}
+  textureBrightness: 0.4
+  textureBrightnessOscillator: {fileID: 0}
+  textureContrast: 1
+  textureContrastOscillator: {fileID: 0}
+  textureSpeedX: 0
+  textureSpeedXOscillator: {fileID: 0}
+  textureSpeedY: 0
+  textureSpeedYOscillator: {fileID: 0}
+  textureClampLow: 0
+  textureClampLowOscillator: {fileID: 0}
+  textureClampHigh: 1
+  textureClampHighOscillator: {fileID: 0}
+  texturePick: {x: 0, y: 0, z: 0, w: 0}
+  textureTilingX: 0
+  textureTilingXOscillator: {fileID: 0}
+  textureTilingY: 0
+  textureTilingYOscillator: {fileID: 0}
+  RazorMultiply: 2
+  RazorMultiplyOscillator: {fileID: 0}
+  RazorFrequency: 2.42
+  RazorFrequencyOscillator: {fileID: 0}
+  RazorOffset: 0
+  RazorOffsetOscillator: {fileID: 0}
+  RazorSinFrequency: 0
+  RazorSinFrequencyOscillator: {fileID: 0}
+  RazorSinMultiply: 0
+  RazorSinMultiplyOscillator: {fileID: 0}
+  RazorSinSpeed: 0
+  RazorSinSpeedOscillator: {fileID: 0}
+  frequency: 12.35
+  frequencyOscillator: {fileID: 0}
+  offset: 0
+  offsetOscillator: {fileID: 0}
+  speed: -0.2
+  speedOscillator: {fileID: 0}
+  amplitude: 1.05
+  amplitudeOscillator: {fileID: 0}
+  add: 0.64
+  addOscillator: {fileID: 0}
+  distortDirection: 0
+  distortDirectionOscillator: {fileID: 0}
+  distortMultiply: 0
+  distortMultiplyOscillator: {fileID: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  colorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator: {fileID: 0}
+  color2: {r: 1, g: 0.8489028, b: 0, a: 1}
+  colorGradient2:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.8489028, b: 0, a: 1}
+    key1: {r: 0.3593542, g: 0.3301887, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorOscillator2: {fileID: 7038587758133701919}
+  clampLow: -1
+  clampLowOscillator: {fileID: 0}
+  clampHigh: 0.5
+  clampHighOscillator: {fileID: 0}
+  positionX: 0
+  positionXOscillator: {fileID: 0}
+  positionY: 0
+  positionYOscillator: {fileID: 0}
+  quantizeTime: 100
+  quantizeTimeOscillator: {fileID: 0}
+  ZVignette: -0.2
+  ZVignettePower: 2
+  eyeHueShift: 0
+  eyeHueShiftOscillator: {fileID: 0}
+  clockScale: 1
+  clockScaleOscillator: {fileID: 0}
+  clockOffset: 0
+  clockOffsetOscillator: {fileID: 0}
+  opacity: 0.62
+  opacityOscillator: {fileID: 0}
+  cTime: {x: 0, y: 881.0998, z: 1554.3776, w: 0.0471556}
+  cTimeOscillator: {fileID: 0}
+--- !u!114 &8775722570875212899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999286416058017848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3209acda11c264dbe9a7e2b59d4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScript: {fileID: 8873134813441606154}
+  transitionSpeed: 0
+  floatRanges:
+  - fieldName: textureBrightness
+    range: {x: 0.4, y: 0.4}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.4
+    currentValue: 0.4
+    targetValue: 0.4
+  - fieldName: textureContrast
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureSpeedX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureSpeedY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampLow
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureClampHigh
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: textureTilingX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: textureTilingY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorMultiply
+    range: {x: 2, y: 2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 2
+    currentValue: 2
+    targetValue: 2
+  - fieldName: RazorFrequency
+    range: {x: 2.42, y: 2.42}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 2.42
+    currentValue: 2.42
+    targetValue: 2.42
+  - fieldName: RazorOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinFrequency
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: RazorSinSpeed
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: frequency
+    range: {x: 12.35, y: 12.35}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 12.35
+    currentValue: 12.35
+    targetValue: 12.35
+  - fieldName: offset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: speed
+    range: {x: -0.2, y: -0.2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.2
+    currentValue: -0.2
+    targetValue: -0.2
+  - fieldName: amplitude
+    range: {x: 1.05, y: 1.05}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1.05
+    currentValue: 1.05
+    targetValue: 1.05
+  - fieldName: add
+    range: {x: 0.64, y: 0.64}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.64
+    currentValue: 0.64
+    targetValue: 0.64
+  - fieldName: distortDirection
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: distortMultiply
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clampLow
+    range: {x: -1, y: -1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -1
+    currentValue: -1
+    targetValue: -1
+  - fieldName: clampHigh
+    range: {x: 0.5, y: 0.5}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.5
+    currentValue: 0.5
+    targetValue: 0.5
+  - fieldName: positionX
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: positionY
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: quantizeTime
+    range: {x: 100, y: 100}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 100
+    currentValue: 100
+    targetValue: 100
+  - fieldName: ZVignette
+    range: {x: -0.2, y: -0.2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: -0.2
+    currentValue: -0.2
+    targetValue: -0.2
+  - fieldName: ZVignettePower
+    range: {x: 2, y: 2}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 2
+    currentValue: 2
+    targetValue: 2
+  - fieldName: eyeHueShift
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: clockScale
+    range: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 1
+    currentValue: 1
+    targetValue: 1
+  - fieldName: clockOffset
+    range: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0
+    currentValue: 0
+    targetValue: 0
+  - fieldName: opacity
+    range: {x: 0.62, y: 0.62}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: 0.62
+    currentValue: 0.62
+    targetValue: 0.62
+  vector4Ranges:
+  - fieldName: texturePick
+    xRange: {x: 0, y: 0}
+    yRange: {x: 0, y: 0}
+    zRange: {x: 0, y: 0}
+    wRange: {x: 0, y: 0}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 0, z: 0, w: 0}
+    currentValue: {x: 0, y: 0, z: 0, w: 0}
+    targetValue: {x: 0, y: 0, z: 0, w: 0}
+  - fieldName: cTime
+    xRange: {x: 0, y: 0}
+    yRange: {x: 886.7447, y: 886.7447}
+    zRange: {x: 1549.8853, y: 1549.8853}
+    wRange: {x: 0.0023598, y: 0.0023598}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {x: 0, y: 886.7447, z: 1549.8853, w: 0.0023598}
+    currentValue: {x: 0, y: 1004.71405, z: 1456.0205, w: 0.0028247}
+    targetValue: {x: 0, y: 1004.71405, z: 1456.0205, w: 0.0028247}
+  colorRanges:
+  - fieldName: color
+    rRange: {x: 1, y: 1}
+    gRange: {x: 1, y: 1}
+    bRange: {x: 1, y: 1}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 1, g: 1, b: 1, a: 1}
+    currentValue: {r: 1, g: 1, b: 1, a: 1}
+    targetValue: {r: 1, g: 1, b: 1, a: 1}
+  - fieldName: color2
+    rRange: {x: 1, y: 1}
+    gRange: {x: 0.8489028, y: 0.8489028}
+    bRange: {x: 0, y: 0}
+    aRange: {x: 1, y: 1}
+    randomize: 0
+    randomizeProbability: 1
+    initialValue: {r: 1, g: 0.8489028, b: 0, a: 1}
+    currentValue: {r: 0.36671853, g: 0.33615142, b: 0.9885048, a: 1}
+    targetValue: {r: 0.36671853, g: 0.33615142, b: 0.9885048, a: 1}
+  callRandomFunction: {fileID: 0}
+  randomizeOnStart: 1
